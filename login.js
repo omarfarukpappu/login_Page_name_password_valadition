@@ -7,7 +7,7 @@ function validateForm() {
     var password = document.getElementById('password').value;
 
 
-    if (!/^[a-zA-Z]+$/.test(name.trim())) {
+    if (!/^[a-zA-Z\s.]+$/.test(name.trim())) {
         displayError('Name should contain only letters.');
         return;
     }
