@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name and Password Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script>
+
+</head>
+<body>
+
+<form id="validationForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+
+    <button type="button" onclick="validateForm()">Submit</button>
+
+    <div id="errorMessages" class="error"></div>
+</form>
+</body>
+</html>
